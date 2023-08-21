@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: dodgerblue;
+}
+.telegram{
+    width: 350px;
+   min-height: 550px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 0.5px solid #aaa;
+}
+.navbar h2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #666;
+padding-left: 10px;
+
+}
+.icons{
+    color: grey;
+    padding-right: 10px;
+}
+.icons i{
+    padding-left: 12px;
+}
+.profile{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+border-radius: 8px;
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    margin-left: 10px;
+}
+.profile small{
+    color:#555;
+    font-size: small;
+    font-weight: 200;
+}
+.profile h3{
+    font-size:18px;
+    font-weight:700;
+    color: #444;
+    font-family: cursive;
+}
+.number{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left:50px;
+    margin-bottom: 2px;
+}
+.number p{
+    text-align: center;
+    font-size: 16px;
+}
+.number i{
+    padding-bottom: 19px;
+}
+.number small{
+    padding-right: 25px; 
+}
+.bio{
+     width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left:50px;
+
+}
+.bio p{
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.number small{
+    padding-right: 25px; 
+}
+.bell{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 170px; 
+    padding-left: 50px;
+    border: 0.5px solid #aaa;
+    border-radius: 8px;
+    border-top:none;
+}
+.bell p{
+    padding-right: 17px;
+}
+button{
+    color: dodgerblue;
+    border: none;
+    padding-left: 70px;
+    font-weight: 700;
+    background-color: #fff;
+    padding-top: 10px;
+}
+button:hover{
+background-color:transparent;
+color:crimson;
+cursor: pointer;
+}
+.voice{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-left: 50px;
+padding-right: 140px;
+border: 0.5px solid #aaa;
+border-radius: 8px;
+border-bottom: none;
+}
+.voice p{
+    padding-right: 17px;   
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-left: 50px;
+padding-right: 140px;
+}
+.footer4{
+    color: crimson;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-left: 50px;
+padding-right: 140px;   
+}

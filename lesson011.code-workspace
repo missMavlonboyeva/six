@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../.vscode"
+		},
+		{
+			"path": "../exrtra lesson"
+		},
+		{
+			"path": "../lesson002"
+		},
+		{
+			"path": "../lesson007"
+		},
+		{
+			"path": "../lesson008"
+		},
+		{
+			"path": "../lesson009"
+		},
+		{
+			"path": "../lesson010"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lesson011",
+		"liveServer.settings.port": 5501
+	}
+}
